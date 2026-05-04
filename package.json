@@ -19,6 +19,7 @@
 		"./package.json": "./package.json"
 	},
 	"scripts": {
+		"crawl": "node --env-file=.env cli/crawl.ts",
 		"prepack": "tsdown",
 		"version": "tsdown && git add package.json",
 		"check": "tsc --noEmit",
