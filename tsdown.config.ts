@@ -7,4 +7,5 @@ export default defineConfig({
 	exports: true,
 	publint: true,
 	attw: { profile: 'esm-only' },
+	globImport: true,
 });
